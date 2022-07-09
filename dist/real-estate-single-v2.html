@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <title>Fajer Alkhaleej | Real Estate </title>
+
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Fajer Alkhaleej - Real Estate &amp; Housing Building Constractions & Mazaya">
+    <meta name="keywords" content="fajer alkhaleej real estate.">
+    <meta name="author" content="Safahat for Software Development">
+    
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" color="#5bbad5" href="safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Page loading styles-->
+    <style>
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+      .page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #666276;;
+      }
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        border: .15em solid #bbb7c5;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      
+    </style>
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          var preloader = document.querySelector('.page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 2000);
+        };
+      })();
+      
+    </script>
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+  </head>
+
+  <!-- Body-->
+  <body>
+    
+    <!-- Page loading spinner-->
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+    
+    
+    <main class="page-wrapper">
+      
+      <!-- Navbar-->
+      <header class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-scroll-header>
+        <div class="container">
+
+          <a class="navbar-brand me-3 me-xl-4" href="/dist/index.html">
+            فجر الخليج العقارية
+          </a>
+          
+          <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
+            <ul class="navbar-nav navbar-nav-scroll" style="max-height: 35rem;">
+              <!-- Menu items-->
+              
+              <li class="nav-item">
+                <a class="nav-link" href="/dist/real-estate-single-v1.html">
+                  مشروع بني جمرة
+                </a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="/dist/real-estate-single-v2.html">
+                  مشروع ستــــــــــرة
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/dist/real-estate-single-v3.html">
+                  مشروع جدالحــــــــــاج
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/dist/real-estate-single-v4.html">
+                  مشروع بــــــــــاربار
+                </a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link" href="/dist/real-estate-blog-single.html">
+                  تعرف على مــزايا
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          
+
+        </div>
+      </header>
+
+      <!-- Page content-->
+      <!-- Page content-->
+      <section class="container mt-5 mb-lg-5 mb-4 pt-5 pb-lg-5">
+
+        <div class="row gy-5 pt-lg-2">
+          <div class="col-lg-7">
+            <div class="d-flex flex-column">
+
+              <!-- Page title + Features-->
+              <div class="order-lg-1 order-2">
+                <h1 class="h2 mb-4"> مشروع سترة </h1>
+                <ul class="d-flex mb-md-4 mb-3 list-unstyled" style="margin-right: -2.2em !important;">
+                  <li class="ms-3 ps-3 border-start">
+                    <b class="ms-1">٤</b><i class="fi-bed mt-n1 lead align-middle text-muted"></i>
+                  </li>
+                  
+                  <li class="ms-3 ps-3 border-start">
+                    <b class="ms-1">٥</b><i class="fi-bath mt-n1 lead align-middle text-muted"></i>
+                  </li>
+                  
+                  <li class="ms-3 ps-3 border-start">
+                    <b class="ms-1">١</b><i class="fi-car mt-n1 lead align-middle text-muted"></i>
+                  </li>
+                  
+                  <li><b>٣٠٠ </b>متر مربع</li>
+                </ul>
+              </div>
+              
+              <!-- Carousel with slides count-->
+              <div class="order-lg-2 order-1" dir="ltr">
+                <div class="tns-carousel-wrapper">
+                  <div class="tns-slides-count text-light"><i class="fi-image fs-lg me-2"></i>
+                    <div class="ps-1"><span class="tns-current-slide fs-5 fw-bold"></span><span class="fs-5 fw-bold">/</span><span class="tns-total-slides fs-5 fw-bold"></span></div>
+                  </div>
+                  <div class="tns-carousel-inner" data-carousel-options="{&quot;navAsThumbnails&quot;: true, &quot;navContainer&quot;: &quot;#thumbnails&quot;, &quot;gutter&quot;: 12, &quot;responsive&quot;: {&quot;0&quot;:{&quot;controls&quot;: false},&quot;500&quot;:{&quot;controls&quot;: true}}}">
+                    <div><img class="rounded-3" src="img/fajer/fajr-sitra-001.jpeg" alt="Image"></div>
+                    <div><img class="rounded-3" src="img/fajer/fajr-sitra-002.jpeg" alt="Image"></div>
+                  </div>
+                </div>
+
+                <!-- Thumbnails nav-->
+                <ul class="tns-thumbnails mb-4" id="thumbnails">
+                  <li class="tns-thumbnail"><img src="img/fajer/fajr-sitra-001.jpeg" alt="Thumbnail"></li>
+                  <li class="tns-thumbnail"><img src="img/fajer/fajr-sitra-002.jpeg" alt="Thumbnail"></li>
+                </ul>
+              </div>
+
+            </div>
+
+
+            <!-- Overview-->
+            <h2 class="h5">نظرة عــــــــــامة</h2>
+            <p class="mb-4 pb-2">
+              مجموعة من المنازل الراقية نصممها لتكون بيتًا لا منزلاً فقط. تحتوي على ما يصل إلى ٤ غرف، و ٥ حمامات، و مطبخ و صالة، موزعة على طابقين، كل ذلك في مساحة بناء تصل إلي ٣٠٠ متر مربع.
+            </p>
+            
+            
+            <!-- Rental agent-->
+            <h2 class="h5"> وكلائنــــــــــا </h2>
+            <p class="mb-4">
+              وكلاء مبيعاتنا ذوو خبرة مميزة، يمكنكم التواصل معهم و سيكونون بخدمتكم.
+            </p>
+
+            <div class="row">
+              <div class="col">
+                <div class="card card-horizontal">
+            
+                  <div class="card-body p-4">
+                    
+                    
+                    <footer class="d-flex justify-content-between">
+                      <div class="pe-3">
+                        <h6 class="mb-0"> حسين <br> الموالـــــي </h6>
+                        <div class="text-muted fw-normal fs-sm mb-3"> وكيل مبيعات </div>
+                        <a class="btn btn-icon btn-light-primary btn-xs shadow-sm rounded-circle me-2 mb-2" href="tel:97338100166"><i class="fi-phone"></i></a>
+                        <a class="btn btn-icon btn-light-primary btn-xs shadow-sm rounded-circle me-2 mb-2" href="https://api.whatsapp.com/send/?phone=97338100166%>&text=السلام%20عليكم%20أود%20زيارة%20مشروع%20بني%20جمرة"><i class="fi-whatsapp"></i></a>
+                      </div>
+                    </footer>
+                  
+                  </div>
+                
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-horizontal">
+            
+                  <div class="card-body p-4">
+                    
+                    <footer class="d-flex justify-content-between">
+                      <div class="pe-3">
+                        <h6 class="mb-0"> علي <br> المتـــــوج </h6>
+                        <div class="text-muted fw-normal fs-sm mb-3"> وكيل مبيعات </div>
+                        <a class="btn btn-icon btn-light-primary btn-xs shadow-sm rounded-circle me-2 mb-2" href="tel:97333406226"><i class="fi-phone"></i></a>
+                        <a class="btn btn-icon btn-light-primary btn-xs shadow-sm rounded-circle me-2 mb-2" href="https://api.whatsapp.com/send/?phone=97333406226%>&text=السلام%20عليكم%20أود%20زيارة%20مشروع%20بني%20جمرة"><i class="fi-whatsapp"></i></a>
+                      </div>
+                    </footer>
+                  
+                  </div>
+                
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-horizontal">
+            
+                  <div class="card-body p-4">
+                    
+                    <footer class="d-flex justify-content-between">
+                      <div class="pe-3">
+                        <h6 class="mb-0"> طاهر <br> مرهـــــون </h6>
+                        <div class="text-muted fw-normal fs-sm mb-3"> وكيل مبيعات </div>
+                        <a class="btn btn-icon btn-light-primary btn-xs shadow-sm rounded-circle me-2 mb-2" href="tel:97338100177"><i class="fi-phone"></i></a>
+                        <a class="btn btn-icon btn-light-primary btn-xs shadow-sm rounded-circle me-2 mb-2" href="https://api.whatsapp.com/send/?phone=97338100177%>&text=السلام%20عليكم%20أود%20زيارة%20مشروع%20بني%20جمرة"><i class="fi-whatsapp"></i></a>
+                      </div>
+                    </footer>
+                  
+                  </div>
+                
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-horizontal">
+            
+                  <div class="card-body p-4">
+                    
+                    <footer class="d-flex justify-content-between">
+                      <div class="pe-3">
+                        <h6 class="mb-0"> حيدر <br> التاجـــــر </h6>
+                        <div class="text-muted fw-normal fs-sm mb-3"> وكيل مبيعات </div>
+                        <a class="btn btn-icon btn-light-primary btn-xs shadow-sm rounded-circle me-2 mb-2" href="tel:97338100144"><i class="fi-phone"></i></a>
+                        <a class="btn btn-icon btn-light-primary btn-xs shadow-sm rounded-circle me-2 mb-2" href="https://api.whatsapp.com/send/?phone=97338100144%>&text=السلام%20عليكم%20أود%20زيارة%20مشروع%20بني%20جمرة"><i class="fi-whatsapp"></i></a>
+                      </div>
+                    </footer>
+                  
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+          
+          <!-- Sidebar with details-->
+          <aside class="col-lg-5">
+            <div class="ps-lg-5">
+              
+              <h2 class="h3 mb-4 pb-2"> تبدأ من ١٣٣،٠٠٠ دب </h2>
+              
+              
+              <!-- Property details-->
+              <div class="card border-0 bg-secondary mb-4">
+                <div class="card-body">
+                  <h5 class="mb-0 pb-3"> التفاصيل </h5>
+                  <ul class="list-unstyled mt-n2 mb-0" style="margin-right: -2.5em !important;">
+                    <li class="mt-2 mb-0"><b>مساحة البناء: </b>٣٠٠ متر مربع</li>
+                    <li class="mt-2 mb-0"><b>مساحة الأرض: </b>٢١٧ متر مربع</li>
+                    <li class="mt-2 mb-0"><b>العرف: </b>٤</li>
+                    <li class="mt-2 mb-0"><b>دورات المياه: </b>٥</li>
+                    <li class="mt-2 mb-0"><b>المواقف: </b>١</li>
+                  </ul>
+
+                  <p class="text-muted mt-3" style="font-size: 12px;">*بعض المميــــــــــزات متوفرة حسب العقار</p>
+                </div>
+              </div>
+              
+              <a class="btn btn-lg btn-primary w-100 mb-5" href="https://api.whatsapp.com/send/?phone=97317778866%>&text=السلام%20عليكم%20أود%20زيارة%20مشروع%20بني%20جمرة" target="_blank"> إحجز موعد للزيــــــــــارة </a>
+              
+              
+              <!-- Amenities-->
+              <div class="card border-0 bg-secondary mb-4 mt-2">
+                <div class="card-body">
+                  
+                  <h5>Amenities</h5>
+                  <ul class="list-unstyled row row-cols-md-2 row-cols-1 gy-2 mb-0 text-nowrap" style="margin-right: -3.2em !important;">
+                    <li class="col"><i class="fi-tv mt-n1 ms-2 fs-lg align-middle"></i>صالة</li>
+                    <li class="col"><i class="fi-shop mt-n1 ms-2 fs-lg align-middle"></i>طابقين</li>
+                    <li class="col"><i class="fi-bath mt-n1 ms-2 fs-lg align-middle"></i>٥ دورات مياه</li>
+                    <li class="col"><i class="fi-bed mt-n1 ms-2 fs-lg align-middle"></i>٤ غرف نوم</li>
+                    <li class="col"><i class="fi-cafe mt-n1 ms-2 fs-lg align-middle"></i>مطبخ</li>
+                    <li class="col"><i class="fi-house-chosen mt-n1 ms-2 fs-lg align-middle"></i>مرآب</li>
+                  </ul>
+                  
+                </div>
+              </div>
+
+            </div>
+          </aside>
+        </div>
+      </section>
+      
+    </main>
+    
+    <!-- Footer-->
+    <footer class="footer bg-secondary">
+      <div class="container pt-lg-4 pb-4">
+        <div class="text-center fs-sm pt-4 mt-1 mb-2 pb-2">
+          &copy; جميع الحقوق محفوظة،
+          صنع بواسطة <a href='https://alkhabaz.net/' class='d-inline-block nav-link p-0' target='_blank' rel='noopener' data-bs-toggle="tooltip" data-bs-placement="top" title="صفحات لتطوير البرمجيات">صفحات</a>.
+        </div>
+      </div>
+    </footer>
+    
+    
+    <!-- Back to top button-->
+    <a class="btn-scroll-top" href="#top" data-scroll><span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon fi-chevron-up">   </i></a>
+    
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script src="vendor/lg-fullscreen.js/dist/lg-fullscreen.min.js"></script>
+    <script src="vendor/lg-zoom.js/dist/lg-zoom.min.js"></script>
+    <script src="vendor/lg-thumbnail.js/dist/lg-thumbnail.min.js"></script>
+    <script src="vendor/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <!-- Main theme script-->
+    <script src="js/theme.min.js"></script>
+  </body>
+</html>
